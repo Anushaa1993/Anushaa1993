@@ -7,6 +7,7 @@ pipeline {
                 echo 'Hello World'
                 echo git commit "{$GIT_COMMIT}"
                 echo git previous commit "{$GIT_PREVIOUS_COMMIT}"
+                echo git branch "{$GIT_BRANCH}"
             }
         }
     }
