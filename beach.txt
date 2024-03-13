@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 echo "git commit : ${GIT_COMMIT}"
-                echo "${GIT_PREVIOUS_SUCCESS_COMMIT}"
+                echo "${GIT_PREVIOUS_SUCCESSFUL_COMMIT}"
             }
         }
     }
